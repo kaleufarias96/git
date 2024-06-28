@@ -1,0 +1,35 @@
+<mxfile host="65bd71144e">
+    <diagram id="T2Fi73JmopxXz32wRGY5" name="banco">
+        <mxGraphModel dx="530" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.005;entryY=0.658;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" parent="1" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="124.82320958783976" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="37tO1bAMgik6TVgHGWoh" name="font">
+        <mxGraphModel dx="840" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="TDFlvWDau4ElagD_lhdN-1" value="" style="whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="34" y="30" width="760" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="TDFlvWDau4ElagD_lhdN-2" value="foto&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estrelas&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="74" y="60" width="126" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="TDFlvWDau4ElagD_lhdN-3" value="CLIENTE" style="whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="654" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="TDFlvWDau4ElagD_lhdN-4" value="Recursos&amp;nbsp;&lt;br&gt;- Exibir os filmes&lt;br&gt;- Pesquisar&lt;br&gt;- Fazer Login&lt;br&gt;- Exibir recursos exclusivos&lt;br&gt;para clientes logados&lt;br&gt;- ver media de estrelas&lt;br&gt;-fazer avaliaçao/ comentarios&lt;br&gt;- ver comentarios" style="whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="272" y="200" width="310" height="300" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

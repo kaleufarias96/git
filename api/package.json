@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn index.ts",
+    "dev2": "npx ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts",
+    "push": "prisma db push && prisma generate",
+    "studio": "prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "express": "^4.19.1",
+    "mysql": "^2.18.1",
+    "prisma": "^5.11.0",
+    "sequelize": "^6.37.1"
+  }
+}
