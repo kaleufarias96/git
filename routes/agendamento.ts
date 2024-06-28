@@ -14,7 +14,7 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
     const { data, hora, usuario_id, esporte_id, quadra_id } = req.body;
 
-    if (!data || !hora || !usuario_id || !esporte_id || !quadra_id) {
+    if (!data || !hora || !usuario_id || !quadra_id) {
         return res.status(400).json({ mensagem: "Dados inválidos" });
     }
     const agendamento = await prisma.agendamento.create({
@@ -22,7 +22,6 @@ router.post("/", async (req, res) => {
             data,
             hora,
             usuario_id,
-            esporte_id,
             quadra_id
         }
     });
