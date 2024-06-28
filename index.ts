@@ -12,7 +12,7 @@ import quadrasRouter from './routes/quadra';
 import agendamentosRouter from './routes/agendamento';
 
 const app = express();
-const port = 3002;
+const port = 3001;
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
